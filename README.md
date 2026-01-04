@@ -4,7 +4,7 @@ A modern, responsive portfolio website built with Next.js 15, TypeScript, and Ta
 
 ## 🚀 Live Demo
 
-**[personal-website-herlian.vercel.app](https://personal-website-herlian.vercel.app/)**
+**[herlian.vercel.app](https://herlian.vercel.app/)**
 
 ## ✨ Features
 
