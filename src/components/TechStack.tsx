@@ -49,8 +49,8 @@ export function TechStack() {
                 </div>
 
                 {/* Gradient overlays for fade effect */}
-                <div className="absolute left-0 top-0 bottom-0 w-32 bg-linear-to-r from-[var(--background)] to-transparent pointer-events-none" />
-                <div className="absolute right-0 top-0 bottom-0 w-32 bg-linear-to-l from-[var(--background)] to-transparent pointer-events-none" />
+                <div className="absolute left-0 top-0 bottom-0 w-32 bg-linear-to-r from-background to-transparent pointer-events-none" />
+                <div className="absolute right-0 top-0 bottom-0 w-32 bg-linear-to-l from-background to-transparent pointer-events-none" />
             </div>
         </section>
     );
