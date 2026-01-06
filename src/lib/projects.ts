@@ -8,7 +8,7 @@ export const projects: Project[] = [
         slug: "culina-market",
         title: "Culina Market",
         description:
-            "A grocery shopping platform connecting local markets with customers, featuring real-time inventory and AI-powered recipe suggestions.",
+            "Culina Market: AI-Powered Smart Grocery Platform",
         longDescription:
             "Culina Market is a modern grocery shopping platform that bridges the gap between local markets and tech-savvy customers. The platform features real-time inventory tracking, an AI-powered recipe suggestion system that recommends dishes based on available ingredients, and a seamless checkout experience. Built with performance and accessibility in mind, it delivers a smooth shopping experience across all devices.",
         coverImage: "/images/projects/culina2.png",
@@ -44,7 +44,7 @@ Type-Safe Architecture: Utilized TypeScript and Server Actions to eliminate sepa
         slug: "urloxis",
         title: "Urloxis",
         description:
-            "Urloxis is a modern, fast, and secure URL shortener, designed to provide a seamless user experience for shortening links, tracking analytics, and generating QR codes.",
+            "Urloxis is a modern, fast, and secure URL shortener with tracking analytics.",
         longDescription:
             "Urloxis is a comprehensive URL shortening solution built for modern web users. Beyond simple link shortening, it offers detailed analytics tracking, custom alias creation, QR code generation, and link expiration settings. The platform is designed with security in mind, featuring rate limiting and spam protection.",
         coverImage: "/images/projects/mockup-urloxis.png",
@@ -74,6 +74,41 @@ Automated Lifecycle Management: Utilized Moment.js for precise date manipulation
         },
         featured: true,
         date: "2025-07-15",
+    },
+    {
+        slug: "neo-sync",
+        title: "NeoSync",
+        description:
+            `The NeoSync Website is a modern showcase for a premium tech product.`,
+
+        longDescription:
+            `This single-page storefront transforms technical specs into engaging visuals with a premium dark mode aesthetic. Built for speed and scalability on Vercel, it delivers a high-performance user experience echoing top tech brands.`,
+        coverImage: "/images/projects/neoWebLow.png",
+        gallery: [
+            "/images/projects/neo-1.png",
+            "/images/projects/neo-feature.png",
+            "/images/projects/neo-review.png",
+        ],
+        technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion", "Vercel"],
+        features: [
+            "Fully responsive design",
+            "Scroll-triggered reveal",
+            "Custom preloader",
+            "Clean typography & hierarchy",
+        ],
+        challenges: `Performance: Balanced high-quality visuals with speed using optimized image compression.
+
+Responsiveness: Solved mobile layout clutter by applying strict responsive breakpoints for a seamless UI.
+
+Engagement: Boosted user retention by converting dense text into interactive Bento grids and visual metrics.
+
+Navigation: Enhanced usability on long pages with a sticky navbar and smooth scroll anchors.`,
+        links: {
+            demo: "https://neo-sync.vercel.app/",
+            repo: "https://github.com/herlian-azis/neo-sync",
+        },
+        featured: true,
+        date: "2026-01-01",
     },
 ];
 

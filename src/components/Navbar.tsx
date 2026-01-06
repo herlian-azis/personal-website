@@ -41,10 +41,10 @@ export function Navbar() {
             animate={{ y: isVisible ? 0 : -100 }}
             transition={{ duration: 0.3 }}
             className={cn(
-                "fixed top-0 left-0 right-0 z-50 transition-all duration-300",
+                "fixed top-0 left-0 right-0 z-50 transition-all duration-300 border-b",
                 isScrolled
-                    ? "bg-(--background)/80 backdrop-blur-lg border-b border-surface"
-                    : "bg-transparent"
+                    ? "bg-(--background)/80 backdrop-blur-lg border-surface"
+                    : "bg-transparent border-transparent"
             )}
         >
             <nav className="mx-auto flex max-w-6xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
