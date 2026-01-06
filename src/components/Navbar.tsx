@@ -4,6 +4,7 @@
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Sun, Moon, Menu, X } from "lucide-react";
+import Link from "next/link";
 import { navItems, siteConfig } from "@/lib/config";
 import { useTheme } from "./ThemeProvider";
 import { cn } from "@/lib/utils";
@@ -49,24 +50,24 @@ export function Navbar() {
         >
             <nav className="mx-auto flex max-w-6xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
                 {/* Logo */}
-                <a
-                    href="#home"
+                <Link
+                    href="/#home"
                     className="text-xl font-bold tracking-tight hover:text-accent transition-colors"
                 >
                     {siteConfig.name}
                     <span className="text-accent">.</span>
-                </a>
+                </Link>
 
                 {/* Desktop Navigation */}
                 <ul className="hidden md:flex items-center gap-8">
                     {navItems.map((item) => (
                         <li key={item.label}>
-                            <a
+                            <Link
                                 href={item.href}
                                 className="text-sm font-medium text-text-secondary hover:text-foreground transition-colors"
                             >
                                 {item.label}
-                            </a>
+                            </Link>
                         </li>
                     ))}
                 </ul>
@@ -119,13 +120,13 @@ export function Navbar() {
                         <ul className="flex flex-col px-4 py-4 gap-4">
                             {navItems.map((item) => (
                                 <li key={item.label}>
-                                    <a
+                                    <Link
                                         href={item.href}
                                         onClick={() => setIsMobileMenuOpen(false)}
                                         className="block text-lg font-medium text-text-secondary hover:text-foreground transition-colors"
                                     >
                                         {item.label}
-                                    </a>
+                                    </Link>
                                 </li>
                             ))}
                         </ul>
